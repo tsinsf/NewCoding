@@ -83,8 +83,7 @@ def new_try():
     
     #ask for user input and capitalize their input
     new_try = input(prompt = """\nDo you want to play again? 
-Please enter the word 'Yes' or 'No': 
-        """).capitalize()    
+Please enter the word 'Yes' or 'No': """).capitalize()    
 
     #if statement for decision making
     if new_try == 'Yes':
@@ -117,8 +116,7 @@ def first_encounter_decision():
     decision1 = input(prompt = """\nChoose your decision (Type the number of the action you want to take):
     1. Turn around and run back to where you came from
     2. Stand still, do not move and hold your breath
-    3. Make yourself big, yell at them and move forward
-                """)
+    3. Make yourself big, yell at them and move forward""")
     
     #different outcomes for each decision
     #decision 1
@@ -128,15 +126,11 @@ def first_encounter_decision():
         
         time.sleep(2)
         
-        print("""\nIt seems to work. Wise decision making! You just survived your first 
-dinosaur encounter but you also lost valuable time. Hurry up now!
-        """)
+        print("""\nIt seems to work. Wise decision making! You just survived your first dinosaur encounter but you also lost valuable time. Hurry up now!""")
         
         time.sleep(2)
         
-        print("""\nYou have won the first challenge and with that a key. Take the key and put it in your pocket.
-Don't loose it, you will need it later!
-        """)
+        print("""\nYou have won the first challenge and with that a key. Take the key and put it in your pocket. Don't loose it, you will need it later! """)
         
         time.sleep(3)
         
@@ -150,20 +144,15 @@ Don't loose it, you will need it later!
     #decision 2   
     elif decision1 == '2':
         
-        print("""\nYou chose to stand still. But they come closer to you, passing right next to you. 
-One compy even sniffs on you...""")
+        print("""\nYou chose to stand still. But they come closer to you, passing right next to you. One compy even sniffs on you...""")
         
         time.sleep(2)
         
-        print("""\nEventually they are losing interest in you and move forward. Lucky you! 
-But now you have to hurry up! You have just lost crucial time... Keep on running.
-        """)
+        print("""\nEventually they are losing interest in you and move forward. Lucky you! But now you have to hurry up! You have just lost crucial time... Keep on running.""")
         
         time.sleep(2)
         
-        print("""\nYou have won the first challenge and with that a key. Take the key and put it in your pocket.
-Don't loose it, you will need it later!
-        """)
+        print("""\nYou have won the first challenge and with that a key. Take the key and put it in your pocket. Don't loose it, you will need it later!""")
         
         time.sleep(3)
         
@@ -177,16 +166,11 @@ Don't loose it, you will need it later!
     #decision 3
     elif decision1 == '3':
         
-        print("""\nYou chose to be aggressive because you think you are brave and start yelling at the compys. 
-You make yourself big and approach them. They are looking at you and start making noises...
-        """)
+        print("""\nYou chose to be aggressive because you think you are brave and start yelling at the compys. You make yourself big and approach them. They are looking at you and start making noises...""")
         
         time.sleep(3)
         
-        print("""\n... and they are coming for you. 5 compys against you - a 5'5 human being. 
-Well that was the stupidest idea you ever had. You don't stand a chance. 
-Congratulations, your life ended underneath 5 heavy dinosaurs...
-        """)
+        print("""\n... and they are coming for you. 5 compys against you - a 5'5 human being. Well that was the stupidest idea you ever had. You don't stand a chance. Congratulations, your life ended underneath 5 heavy dinosaurs...""")
         
         #calling failing() function
         failing()
@@ -206,10 +190,7 @@ def guess_the_code():
     #get a random number from 0-9
     code_number = random.randint(0, 9)
     
-    print("""\nYou have just arrived at another door. It is locked but it seems to only have a one digit code 
-(So it can only be a number from 0-9).
-You have three chances to guess the correct number or else the dinosaurs get you. 
-    """)
+    print("""\nYou have just arrived at another door. It is locked but it seems to only have a one digit code (So it can only be a number from 0-9). You have three chances to guess the correct number or else the dinosaurs get you. """)
 
     # Allow the player three chances to guess the correct number
     for attempt in range(1, 4):
@@ -224,9 +205,7 @@ You have three chances to guess the correct number or else the dinosaurs get you
 
         # Check if the guess is correct
         if guess == code_number:
-            print("""\nGood job! You guessed the correct number. The door opens and you get a second key. 
-Take it with you, don't loose it and keep on running...
-            """)
+            print("""\nGood job! You guessed the correct number. The door opens and you get a second key. Take it with you, don't loose it and keep on running...""")
             
             time.sleep(3)
             
@@ -375,18 +354,11 @@ he is coming closer and he looks hungry...
 # stage 4 guess the number      
 def choose_key():
     
-    print("""\nYou take off running again and you know it is not that far anymore 
-but you are close to the enclosure of the Tyrannosaurus Rex.
-    """)
+    print("""\nYou take off running again and you know it is not that far anymore but you are close to the enclosure of the Tyrannosaurus Rex.""")
     
     time.sleep(2)
     
-    print("""\nNow you are on to the last challenge: 
-You are in front ot the final door of the outer security ring that leads to safety. 
-You have collected three keys along the way but only one of them will help you to pass it. 
-Hurry up, the Tyrannosauros Rex is on the way to you to get you...
-Which key are you choosing? Make the right decision, time is crucial now!
-    """)
+    print("""\nNow you are on to the last challenge: You are in front ot the final door of the outer security ring that leads to safety. You have collected three keys along the way but only one of them will help you to pass it. Hurry up, the Tyrannosauros Rex is on the way to you to get you... Which key are you choosing? Make the right decision, time is crucial now! """)
     
     time.sleep(5)
 
@@ -413,9 +385,7 @@ Which key are you choosing? Make the right decision, time is crucial now!
             
             time.sleep(1)
             
-            print("""\nThe door opens. 
-Hurry up and jump into safe space! Do not forget to close the door!!!
-            """)
+            print("""\nThe door opens. Hurry up and jump into safe space! Do not forget to close the door!!!""")
             
             time.sleep(3)
             
@@ -434,9 +404,7 @@ Hurry up and jump into safe space! Do not forget to close the door!!!
                 
                 time.sleep(2)
                 
-                print("""\nThat was the wrong key. You have 2 more keys remaining.
-But hurry up and choose wisely. 
-The dinosaur has almost broken through the gate. You only have one more chance!
+                print("""\nThat was the wrong key. You have 2 more keys remaining. But hurry up and choose wisely. The dinosaur has almost broken through the gate. You only have one more chance!
                 """ )
 
             elif chances == 1:
@@ -448,9 +416,7 @@ The dinosaur has almost broken through the gate. You only have one more chance!
                 
                 time.sleep(1)
                 
-                print("""\nThat is unfortunate! The Tyrannosaurus Rex has broken through the gate and got you...
-You ended up as dinner for a dinosaur! Damn
-                """)
+                print("""\nThat is unfortunate! The Tyrannosaurus Rex has broken through the gate and got you... You ended up as dinner for a dinosaur! Damn """)
 
                 #calling failing function as user lost the game
                 failing()
@@ -477,22 +443,15 @@ print("""\nLet's play!""")
 time.sleep(1)
 
 
-print("""\nYou know the way to the exit so you take off running. Let's see if you've got what it takes!
-Be aware, hurry up or you will end up as dinosaur dinner...
-""")
+print("""\nYou know the way to the exit so you take off running. Let's see if you've got what it takes! Be aware, hurry up or you will end up as dinosaur dinner... """)
 
 time.sleep(3)
 
-print("""\nYou are running. After a minute you can suddenly feel the ground shaking. What is that? 
-Is it already the Tyrannosaurus Rex?
-""")
+print("""\nYou are running. After a minute you can suddenly feel the ground shaking. What is that? Is it already the Tyrannosaurus Rex? """)
 
 time.sleep(5)
 
-print("""\nYou are lucky! It's just a group of 3 tiny compys. 
-You've learned that they shouldn't be too dangerous if you don't provoke them.
-They are coming in your direction.
-""")
+print("""\nYou are lucky! It's just a group of 3 tiny compys. You've learned that they shouldn't be too dangerous if you don't provoke them. They are coming in your direction. """)
 
 time.sleep(5)
 
