@@ -25,7 +25,7 @@ import random
 ###########################################################################
 ###########################################################################
 
-# functions defining
+functions defining
 
 ###########################################################################  
 ###########################################################################
@@ -33,9 +33,9 @@ import random
 
 
 
-### functions for the end of the game (winning, failing, new_try) 
+# functions for the end of the game (winning, failing, new_try) 
     
-# function for winning the game
+function for winning the game
 def winning():
     
     print("""
@@ -105,7 +105,7 @@ Please enter the word 'Yes' or 'No': """).capitalize()
 ##############################################################################
 ##############################################################################
 
-### funtions for each stage (quizzes and tasks) 
+# functions for each stage (quizzes and tasks) 
 
 # stage 1 survival decision scenario
 def first_encounter_decision():
@@ -184,7 +184,7 @@ def first_encounter_decision():
         first_encounter_decision()
 
         
-#stage 2 guessing game
+# stage 2 guessing game
 def guess_the_code():
     
     #get a random number from 0-9
@@ -455,5 +455,5 @@ print("""\nYou are lucky! It's just a group of 3 tiny compys. You've learned tha
 
 time.sleep(5)
 
-# calling function first_encounter_decision()
+calling function first_encounter_decision()
 first_encounter_decision()
