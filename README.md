@@ -1,19 +1,19 @@
 # Welcome to the Python Text Adventure Game - Surviving in Jurassic Park
 
-# Bugs that are not yet worked out: 
-# When asked if the user wants to play again at the very end and the user types 'No' instead of ending/stopping the game, it prints out the text as it should but also jumps to stage 4. That needs to be solved.
+Bugs that are not yet worked out: 
+When asked if the user wants to play again at the very end and the user types 'No' instead of ending/stopping the game, it prints out the text as it should but also jumps to stage 4. That needs to be solved.
 
-# The game is based on the movie Jurassic Park (Spielberg, S. (1993). Jurassic Park. Universal Pictures.) and itsstory is slightly changed for the purpose of this game. The background story for the game is the following:
+The game is based on the movie Jurassic Park (Spielberg, S. (1993). Jurassic Park. Universal Pictures.) and itsstory is slightly changed for the purpose of this game. The background story for the game is the following:
 
-# You are a visitor of the park and admiring the fascinating landscapes of the island as well as the breathtaking creatures in form of dinosaurs. It is a warm and sunny day, a light wind is blowing and you enjoy adventure – when all of a sudden you can hear loud noises. You try to identify what those noises are and where they come from. In that exact moment you realize that these are the sirens and alarm systems of the park…
+You are a visitor of the park and admiring the fascinating landscapes of the island as well as the breathtaking creatures in form of dinosaurs. It is a warm and sunny day, a light wind is blowing and you enjoy adventure – when all of a sudden you can hear loud noises. You try to identify what those noises are and where they come from. In that exact moment you realize that these are the sirens and alarm systems of the park…
 
-# A COLLAPSE OF THE SECURITY SYSTEM – OH NO! 
+A COLLAPSE OF THE SECURITY SYSTEM – OH NO! 
 
-# All gates of the dinosaur enclosures open up while you are in the middle of the park by yourself. Every single one of those massive creatures can now get in the same area of the park in which you are currently in. Now you have to get to an exit as soon as possible and try to avoid encounters with all different kinds of dinosaurs. 
+All gates of the dinosaur enclosures open up while you are in the middle of the park by yourself. Every single one of those massive creatures can now get in the same area of the park in which you are currently in. Now you have to get to an exit as soon as possible and try to avoid encounters with all different kinds of dinosaurs. 
 
-# In order to get to the outer safe circle of the park you have to choose the best possible way, solve several quizzes and make difficult decisions – and all of that under time pressure before the hungry Tyrannosaurus Rex can find you…
+In order to get to the outer safe circle of the park you have to choose the best possible way, solve several quizzes and make difficult decisions – and all of that under time pressure before the hungry Tyrannosaurus Rex can find you…
 
-# Will you survive? 
+Will you survive? 
 
 
 #import time and random packagess
